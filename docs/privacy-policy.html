@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Momazey — Privacy Policy</title>
+  <meta name="description" content="Политика конфиденциальности приложения Personal Finance / Privacy Policy for the Personal Finance app.">
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --surface: #ffffff;
+      --text: #1c1c1a;
+      --muted: #5f5f5a;
+      --border: #e4e4e0;
+      --accent: #2f6f5e;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121211;
+        --surface: #1b1b1a;
+        --text: #ececea;
+        --muted: #a3a39e;
+        --border: #2c2c2a;
+        --accent: #7cc4ad;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 16px 64px;
+    }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+      margin-bottom: 32px;
+    }
+    h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 4px; }
+    h2 { font-size: 1.15rem; margin: 28px 0 8px; }
+    p, ul { margin: 0 0 12px; }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 6px; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 20px; }
+    nav.lang {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 32px;
+    }
+    nav.lang a {
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--text);
+      text-decoration: none;
+      background: var(--surface);
+    }
+    a { color: var(--accent); }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    code { font-size: 0.9em; }
+  </style>
+</head>
+<body>
+<main>
+  <nav class="lang" aria-label="Language">
+    <a href="#ru" lang="ru">Русский</a>
+    <a href="#en" lang="en">English</a>
+  </nav>
+
+  <!-- ===================== RU ===================== -->
+  <article id="ru" lang="ru">
+    <h1>Политика конфиденциальности</h1>
+    <p class="meta">Приложение «Personal Finance» (<code>com.solntok</code>) · Дата вступления в силу: 11 октября 2026 г.</p>
+
+    <p>Personal Finance — приложение для учёта личных финансов, работающее локально на вашем устройстве. Эта политика объясняет, какие данные обрабатывает приложение и как они защищены.</p>
+
+    <h2>1. Коротко</h2>
+    <ul>
+      <li>Регистрация и вход не нужны.</li>
+      <li>Все ваши финансовые данные хранятся только на вашем устройстве.</li>
+      <li>Мы не собираем, не передаём и не продаём ваши данные.</li>
+      <li>В приложении нет рекламы, аналитики и трекеров.</li>
+    </ul>
+
+    <h2>2. Какие данные хранятся</h2>
+    <p>Данные, которые вы вводите сами:</p>
+    <ul>
+      <li>счета, активы и долги, их балансы и валюты;</li>
+      <li>операции (доходы, расходы, переводы), даты и заметки;</li>
+      <li>категории, бюджеты, цели и регулярные платежи;</li>
+      <li>настройки приложения (тема, язык, валюта, курсы валют).</li>
+    </ul>
+    <p>Эти данные хранятся в локальной базе данных на устройстве и никуда не отправляются. У разработчика нет к ним доступа.</p>
+    <p>Приложение не запрашивает и не хранит логины или пароли от онлайн-банков, номера банковских карт, контакты, геолокацию, фото или другие персональные данные с устройства.</p>
+
+    <h2>3. Доступ в интернет</h2>
+    <p>Приложение обращается к сети только в одном случае: когда вы сами нажимаете «Обновить» в разделе курсов валют. Тогда приложение запрашивает актуальные курсы у бесплатного сервиса <a href="https://www.exchangerate-api.com/" rel="noopener">open.er-api.com</a> (ExchangeRate-API).</p>
+    <ul>
+      <li>В запросе не передаются ваши финансовые данные — только стандартный запрос курсов.</li>
+      <li>Как при любом интернет-запросе, сервис может видеть технические данные (например, IP-адрес). Их обработка регулируется <a href="https://www.exchangerate-api.com/terms" rel="noopener">политикой этого сервиса</a>.</li>
+    </ul>
+
+    <h2>4. Разрешения Android</h2>
+    <ul>
+      <li><strong>Интернет</strong> — только для обновления курсов валют по вашему запросу.</li>
+      <li><strong>Уведомления</strong> — для напоминаний о регулярных платежах. Можно отключить в настройках системы.</li>
+      <li><strong>Запуск после перезагрузки</strong> — чтобы уже запланированные напоминания продолжали работать после перезапуска устройства.</li>
+    </ul>
+    <p>Уведомления создаются локально на устройстве, без серверов.</p>
+
+    <h2>5. Резервные копии и экспорт</h2>
+    <ul>
+      <li><strong>Экспорт/импорт.</strong> Вы можете сохранить все данные в файл JSON и восстановить их из него. Файл сохраняется туда, куда выберете вы. Он не зашифрован — храните его в надёжном месте.</li>
+      <li><strong>Резервное копирование Android.</strong> Если на устройстве включено резервное копирование Google, Android может автоматически сохранять данные приложения в ваш аккаунт Google. Этим управляет система и ваши настройки Google, а не разработчик.</li>
+    </ul>
+
+    <h2>6. Удаление данных</h2>
+    <p>Удалить все данные можно в любой момент: в приложении («Настройки» → «Сбросить локальные данные») или удалив приложение с устройства. Поскольку мы не храним ваши данные на серверах, удалять у нас нечего.</p>
+
+    <h2>7. Безопасность</h2>
+    <p>Данные защищены механизмами изоляции приложений Android. Рекомендуем использовать блокировку экрана устройства, так как любой, кто имеет доступ к разблокированному устройству, может открыть приложение.</p>
+
+    <h2>8. Дети</h2>
+    <p>Приложение не предназначено для детей младше 13 лет и сознательно не собирает данные детей.</p>
+
+    <h2>9. Изменения политики</h2>
+    <p>Если в приложении появятся новые функции, затрагивающие данные (например, синхронизация), мы обновим эту политику и дату вступления в силу.</p>
+
+    <h2>10. Контакты</h2>
+    <p>Вопросы о конфиденциальности: <a href="mailto:solntok0@.com">solntok0@gmail.com"</a></p>
+  </article>
+
+  <!-- ===================== EN ===================== -->
+  <article id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Personal Finance app (<code>com.solntok</code>) · Effective date: October 11, 2026</p>
+
+    <p>Personal Finance is a personal budgeting app that works locally on your device. This policy explains what data the app handles and how it is protected.</p>
+
+    <h2>1. Summary</h2>
+    <ul>
+      <li>No account or sign-in is required.</li>
+      <li>All your financial data stays on your device.</li>
+      <li>We do not collect, share, or sell your data.</li>
+      <li>The app contains no ads, analytics, or trackers.</li>
+    </ul>
+
+    <h2>2. Data stored by the app</h2>
+    <p>Data you enter yourself:</p>
+    <ul>
+      <li>accounts, assets and debts, their balances and currencies;</li>
+      <li>transactions (income, expenses, transfers), dates and notes;</li>
+      <li>categories, budgets, goals and recurring payments;</li>
+      <li>app settings (theme, language, currency, exchange rates).</li>
+    </ul>
+    <p>This data is kept in a local database on your device and is never sent anywhere. The developer has no access to it.</p>
+    <p>The app does not ask for or store online-banking logins or passwords, card numbers, contacts, location, photos, or any other personal data from your device.</p>
+
+    <h2>3. Internet access</h2>
+    <p>The app uses the network in one case only: when you tap “Refresh” in the exchange rates section. The app then requests current rates from the free <a href="https://www.exchangerate-api.com/" rel="noopener">open.er-api.com</a> service (ExchangeRate-API).</p>
+    <ul>
+      <li>No financial data is included in this request — it is a standard request for exchange rates.</li>
+      <li>As with any internet request, the service may see technical data such as your IP address. This is governed by <a href="https://www.exchangerate-api.com/terms" rel="noopener">that service’s own policy</a>.</li>
+    </ul>
+
+    <h2>4. Android permissions</h2>
+    <ul>
+      <li><strong>Internet</strong> — only to refresh exchange rates when you ask.</li>
+      <li><strong>Notifications</strong> — for recurring-payment reminders. You can turn them off in system settings.</li>
+      <li><strong>Run at startup</strong> — so reminders you already scheduled keep working after the device restarts.</li>
+    </ul>
+    <p>Notifications are created locally on the device, without any server.</p>
+
+    <h2>5. Backups and export</h2>
+    <ul>
+      <li><strong>Export/import.</strong> You can save all your data to a JSON file and restore it later. The file is saved where you choose. It is not encrypted, so keep it somewhere safe.</li>
+      <li><strong>Android backup.</strong> If Google backup is enabled on your device, Android may automatically back up app data to your Google account. This is controlled by the system and your Google settings, not by the developer.</li>
+    </ul>
+
+    <h2>6. Deleting your data</h2>
+    <p>You can delete all data at any time: in the app (Settings → Reset local data) or by uninstalling the app. Since we do not store your data on any server, there is nothing to delete on our side.</p>
+
+    <h2>7. Security</h2>
+    <p>Your data is protected by Android’s app sandboxing. We recommend using a screen lock, since anyone with access to your unlocked device can open the app.</p>
+
+    <h2>8. Children</h2>
+    <p>The app is not directed at children under 13 and does not knowingly collect data from children.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>If new features affecting data are added (for example, sync), we will update this policy and its effective date.</p>
+
+    <h2>10. Contact</h2>
+    <p>Privacy questions: <a href="mailto:solntok0@gmail.com"">solntok0@gmail.com"</a></p>
+  </article>
+</main>
+</body>
+</html>
